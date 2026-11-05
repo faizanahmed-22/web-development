@@ -1,0 +1,66 @@
+#virat{
+    color: green;
+   
+    text-align: center;
+    text-decoration: double;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-transform: capitalize;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: 800;
+
+    
+}
+div p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:medium ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.text-box{
+    border: 3px solid #333333;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnmNTz2rH6OQADlirHf7QmbBNUuOc1Oi8xzva9Zm4wZA&s=10);
+    
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    max-width: 1800px;
+    max-height: 500px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+divtable{
+    text-align: center;
+    margin: 20px;
+    padding: 500px;
+    width: 400px;
+    height: 400px;
+
+    
+}
+#trophy{
+    text-align: center;
+    text-decoration: dashed;
+    text-transform: capitalize;
+    font-family:cursive ;
+    font-size: larger;
+    font-weight: 600;
+}
+#trophy-para{
+    text-align: center;
+    background-color: aqua;
+}
+#signiture{
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+    font: weight 400px; ;
+}
+#signiture-image{
+    margin: 200px;
+    padding: 300px;
+
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="banner">
+        <div id="banner-1">
+            <div id="call">📞8897258232 |📧meetislcpcollege@gmail.com</div>
+            <div id="open">Admissions Open for 2025-26</div>
+        </div>
+    </div>
+
+
+    <div id="first">
+        <div id="f-1">
+            <div id="f-1-1">
+            <div><img src="https://ik.imagekit.io/islpc/NON%20TEACHING%20PHOTOS/SQUARE%20LOGO.png?updatedAt=1750454482604" alt="" width="55px"></div>
+        <div ><b>ISL Pharmacy College</b> <br><p>Shaping Tomorrow's Leaders</p></div>
+            </div>
+            <div id="link"> <a href=""> home</a>
+                <a href="">about</a>
+                <a href="">corse</a>
+                <a href="">staff</a>
+                <a href="">infratusture</a>
+                <a href="">addmistion</a>
+                <a href=""> contact</a>
+            </div>
+            <div id="theam"> 🌙</div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="header">
+        <div id="header-1">
+            <div id="left-side">
+                <div id="l-s-1"><b>Shaping <br> Tomorrow's <br> Pharmaceutical <br> Leaders</b></div>
+                <div id="l-s-2"><p>Join ISL Pharmacy College and embark on a journey of excellence in pharmaceutical education </p></div>
+                <div id="l-s-3">🎓 Admissions Open for 2025-26</div>
+                <div id="l-s-4">
+                    <div> <a href="">Explor programs</a><div>
+
+                    </div> <a href="">Contact us</a></div>
+                </div>
+            </div>
+            <div id="right-side">
+                <img src="https://ik.imagekit.io/islpc/p/Picture2.jpg?updatedAt=1750452684313" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="hero-section">
+        <div id="h-s-1">
+            <div id="choose"><b>Why Choose ISL Pharmacy College?</b><br>
+            <p>Experience excellence in pharmaceutical education with our world-class facilities and expert faculty</p></div>
+            <div id="cards">
+                <div id="card-1" class="card">
+                    <div class="card-icon">🏅</div>
+                    <div class="text-1"><b>PCI Approved</b><br><p>Recognized by Pharmacy Council of India with highest standards</p></div>
+                </div>
+                    
+                <div id="card-2" class="card">
+                    <div class="card-icon">👥</div>
+                    <div class="text-1"> <b>Expert Faculty</b><br><p>PhD holders and industry experts with years of experience</p></div>
+                </div>
+                <div id="card-3" class="card">
+                    <div class="card-icon">🏛️</div>
+                    <div class="text-1"> <b>Modern Infrastructure</b><br> <p>State-of-the-art laboratories and contemporary facilities</p></div>
+                </div>
+                <div id="card-4" class="card">
+                    <div class="card-icon">📖</div>
+                    <div class="text-1"><b>Industry-Ready Curriculum</b> <br><p>Updated syllabus aligned with current pharmaceutical industry needs</p></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div  id="about-section">
+        <div id="a-s-1">
+            <div id="a-s-1-1"> <b>About ISL Pharmacy College</b>
+            <p>ISL Pharmacy College is the flagship program of AMES (The Ahmed Memorial Educational Society), continuing the legacy of excellence in education that began with ISL Engineering College in 2008.</p>
+        <ul>
+            <li>Legacy of AMES Educational Group since 2008</li>
+            <li>Strategic location in Hyderabad - Pharma capital of India</li>
+            <li>Osmania University affiliation</li>
+            <li>Modern laboratories with latest equipment</li>
+            <li>Experienced and qualified faculty</li>
+            <li>Industry partnerships and placement support</li>
+        </ul></div>
+            <div a-s-1-2> <img src="https://ik.imagekit.io/islpc/p/BULDING%201.jpeg?updatedAt=1750448461409" alt=""></div>
+        </div>
+    </div>
+</body>
+</html>

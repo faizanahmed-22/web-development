@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up for X</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #15202b;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .signup-box {
+            background-color: #192734;
+            width: 100%;
+            max-width: 400px;
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo {
+            text-align: center;
+            font-size: 42px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 7px;
+            font-size: 14px;
+        }
+
+        input {
+            width: 100%;
+            padding: 13px;
+            margin-bottom: 18px;
+            border: 1px solid #536471;
+            border-radius: 6px;
+            background: transparent;
+            color: white;
+            font-size: 15px;
+            outline: none;
+        }
+
+        input:focus {
+            border-color: #1d9bf0;
+        }
+
+        button {
+            width: 100%;
+            padding: 13px;
+            background: #1d9bf0;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+
+        button:hover {
+            background: #1684d4;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 22px;
+            font-size: 14px;
+            color: #aab8c2;
+        }
+
+        a {
+            color: #1d9bf0;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .message {
+            margin-top: 15px;
+            color: #7ee787;
+            font-size: 14px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="signup-box">
+        <div class="logo">𝕏</div>
+
+        <h1>Create your account</h1>
+
+        <form id="signupForm">
+            <label for="name">Name</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <label for="email">Email</label>
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <label for="dob">Date of birth</label>
+            <input
+                type="date"
+                id="dob"
+                required
+            >
+
+            <label for="password">Password</label>
+            <input
+                type="password"
+                id="password"
+                placeholder="Create a password"
+                minlength="8"
+                required
+            >
+
+            <button type="submit">Create account</button>
+
+            <p class="message" id="message"></p>
+        </form>
+
+        <div class="footer">
+            Already have an account?
+            <a href="#" id="loginLink">Log in</a>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("signupForm")
+            .addEventListener("submit", function(event) {
+                event.preventDefault();
+
+                document.getElementById("message").textContent =
+                    "Demo complete! Connect a backend to create an account.";
+            });
+
+        document.getElementById("loginLink")
+            .addEventListener("click", function(event) {
+                event.preventDefault();
+                alert("Connect this link to your login page.");
+            });
+    </script>
+</body>
+</html>
